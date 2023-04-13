@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T06:08:20.512Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="1lGhOfM8T7EzZh_kU4Wt" version="21.1.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-04-13T08:20:29.706Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.34" etag="9mCNJFpVeGPWZhjugMXC" version="21.1.6" type="github" pages="4">
   <diagram name="送货管理" id="X3wgdLGq-_Crg-AjojkE">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,10 +10,10 @@
         <mxCell id="Wh6mt4iKhqSVBK08v1Cl-2" value="送货通知" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="351" y="280" width="126" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Wh6mt4iKhqSVBK08v1Cl-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;送货管理&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="Wh6mt4iKhqSVBK08v1Cl-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;验收管理&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="369" y="60" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nUbRB1EBlm9rnnvI8mGR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Wh6mt4iKhqSVBK08v1Cl-12" target="nUbRB1EBlm9rnnvI8mGR-2">
+        <mxCell id="nUbRB1EBlm9rnnvI8mGR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Wh6mt4iKhqSVBK08v1Cl-12" target="nUbRB1EBlm9rnnvI8mGR-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Wh6mt4iKhqSVBK08v1Cl-12" value="到货登记" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -25,13 +25,13 @@
         <mxCell id="Wh6mt4iKhqSVBK08v1Cl-13" value="到货分配" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nUbRB1EBlm9rnnvI8mGR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nUbRB1EBlm9rnnvI8mGR-1" target="Wh6mt4iKhqSVBK08v1Cl-2">
+        <mxCell id="nUbRB1EBlm9rnnvI8mGR-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="nUbRB1EBlm9rnnvI8mGR-1" target="Wh6mt4iKhqSVBK08v1Cl-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nUbRB1EBlm9rnnvI8mGR-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nUbRB1EBlm9rnnvI8mGR-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="nUbRB1EBlm9rnnvI8mGR-2" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nUbRB1EBlm9rnnvI8mGR-2" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="630" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
