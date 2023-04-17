@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T06:28:38.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="9aQBJbOUx-ZOW1QNRNlg" version="21.1.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-04-17T06:30:09.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="myVEtR4h0VIhKVH8d2gG" version="21.1.6" type="github" pages="4">
   <diagram name="送货管理" id="X3wgdLGq-_Crg-AjojkE">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
         <mxCell id="GFYWQTXrey3wATUyHJn4-24" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="364" y="850" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GFYWQTXrey3wATUyHJn4-26" value="&lt;div style=&quot;background-color: rgb(36, 41, 46); font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;保存和更新标签关联关系 保存材质证书&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;保存拆分验收单&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="GFYWQTXrey3wATUyHJn4-26" value="&lt;div style=&quot;background-color: rgb(36, 41, 46); font-family: 宋体, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;更改单据和行项目状态为验收中&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;保存和更新标签关联关系 保存材质证书&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;保存拆分验收单&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="486" y="710" width="316" height="90" as="geometry" />
         </mxCell>
         <mxCell id="bMQF7_7k_ZCRFBY79LjC-1" value="基于到货登记创建" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
