@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T06:52:39.588Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="uN6CO-te0m037ga3Vi_F" version="21.1.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-17T06:54:24.772Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="-WqyCAwc-2Hid7A3plJ1" version="21.1.6" type="github" pages="2">
   <diagram name="验收管理" id="X3wgdLGq-_Crg-AjojkE">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,14 +75,14 @@
         <mxCell id="Q0j5l_KJou3c4U5PHv7C-1" value="创建" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="359" y="280" width="129" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="G6c7WTwizra9ARQgNWS_-9" value="&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;状态：草稿 -&amp;gt; 验收中 | 验收中 -&amp;gt; 已完成&lt;/div&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;保存和更新标签关联关系&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;保存材质证书&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;保存拆分验收单&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="490" y="730" width="242" height="90" as="geometry" />
+        <mxCell id="G6c7WTwizra9ARQgNWS_-9" value="&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;保存和更新标签关联关系&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;保存材质证书&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;保存拆分验收单&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;状态：草稿 -&amp;gt; 验收中 | 验收中 -&amp;gt; 已完成（验收完成后可以打印标签）&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="488" y="720" width="242" height="90" as="geometry" />
         </mxCell>
         <mxCell id="G6c7WTwizra9ARQgNWS_-10" value="&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;采购验收单 标签数据 批次图片 操作日志 附件&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="490" y="625" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="G6c7WTwizra9ARQgNWS_-11" value="&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;选择验收数量、添加验收人、上传附件（到货登记单、验收报告、材质证书）&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="488" y="520" width="270" height="35" as="geometry" />
+          <mxGeometry x="488" y="510" width="270" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
