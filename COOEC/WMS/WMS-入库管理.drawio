@@ -1,9 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T07:52:04.993Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="_gRJ0s5h0aj_GwZte4aA" version="21.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-18T06:53:25.665Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="u8UD5QBgc4N4WmM2jZsE" version="21.1.6" type="github" pages="2">
   <diagram name="入库管理" id="bwUxwRHC7fR-1DkseRu6">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Z8b3vt7QsjMo0KYc-PmO-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;入库管理&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="65" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yEQ0pXuZf-btg4ytwAR5" name="采购入库">
+    <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LUd9R85YzY4D5ZRwarRz-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;采购入库&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="35" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LUd9R85YzY4D5ZRwarRz-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;过账&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LUd9R85YzY4D5ZRwarRz-3" value="&lt;div style=&quot;background-color:#24292e;color:#d1d5da;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;pre&gt;&lt;span style=&quot;color:#959da5;&quot;&gt;// &lt;/span&gt;&lt;span style=&quot;color:#959da5;font-family:&#39;宋体&#39;,monospace;&quot;&gt;生成&lt;/span&gt;&lt;span style=&quot;color:#959da5;&quot;&gt;ins&lt;/span&gt;&lt;span style=&quot;color:#959da5;font-family:&#39;宋体&#39;,monospace;&quot;&gt;凭证&lt;br&gt;&lt;/span&gt;purchaseInputComponent.&lt;span style=&quot;color:#b392f0;&quot;&gt;generateInsDocToPost&lt;/span&gt;(&lt;span style=&quot;color:#ffab70;&quot;&gt;ctx&lt;/span&gt;);&lt;br&gt;&lt;span style=&quot;color:#959da5;&quot;&gt;// sap&lt;/span&gt;&lt;span style=&quot;color:#959da5;font-family:&#39;宋体&#39;,monospace;&quot;&gt;入库过账&lt;br&gt;&lt;/span&gt;inputComponent.&lt;span style=&quot;color:#b392f0;&quot;&gt;postInputToSap&lt;/span&gt;(&lt;span style=&quot;color:#ffab70;&quot;&gt;ctx&lt;/span&gt;);&lt;br&gt;&lt;span style=&quot;color:#959da5;&quot;&gt;// ins&lt;/span&gt;&lt;span style=&quot;color:#959da5;font-family:&#39;宋体&#39;,monospace;&quot;&gt;入库过账&lt;br&gt;&lt;/span&gt;inputComponent.&lt;span style=&quot;color:#b392f0;&quot;&gt;postInputToIns&lt;/span&gt;(&lt;span style=&quot;color:#ffab70;&quot;&gt;ctx&lt;/span&gt;);&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color:#959da5;&quot;&gt;// &lt;/span&gt;&lt;span style=&quot;color:#959da5;font-family:&#39;宋体&#39;,monospace;&quot;&gt;设置上架请求标签关联关系&lt;br&gt;&lt;/span&gt;inputComponent.&lt;span style=&quot;color:#b392f0;&quot;&gt;setPostLabelReceiptRel&lt;/span&gt;(&lt;span style=&quot;color:#ffab70;&quot;&gt;ctx&lt;/span&gt;);&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color:#959da5;&quot;&gt;// &lt;/span&gt;&lt;span style=&quot;color:#959da5;font-family:&#39;宋体&#39;,monospace;&quot;&gt;普通标签生成上架请求&lt;br&gt;&lt;/span&gt;inputComponent.&lt;span style=&quot;color:#b392f0;&quot;&gt;generateLoadReq&lt;/span&gt;(&lt;span style=&quot;color:#ffab70;&quot;&gt;ctx&lt;/span&gt;);&lt;br&gt;&lt;span style=&quot;color:#959da5;&quot;&gt;// &lt;/span&gt;&lt;span style=&quot;color:#959da5;font-family:&#39;宋体&#39;,monospace;&quot;&gt;更新批次入库时间&lt;br&gt;&lt;/span&gt;inputComponent.&lt;span style=&quot;color:#b392f0;&quot;&gt;updateInputDate&lt;/span&gt;(&lt;span style=&quot;color:#ffab70;&quot;&gt;ctx&lt;/span&gt;);&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="350" height="250" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
